@@ -1,4 +1,5 @@
 import Expo from 'expo';
+import { registerRootComponent } from 'expo';
 import React from 'react';
 import {
   StyleSheet,
@@ -74,4 +75,4 @@ const styles = StyleSheet.create({
   },
 });
 
-Expo.registerRootComponent(App);
+registerRootComponent(App);
